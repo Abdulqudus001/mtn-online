@@ -55,8 +55,8 @@ body {
 }
 
 .my-container {
-  width: 1300px;
-  max-width: 100%;
+  width: 1200px;
+  max-width: calc(100% - 20px);
   margin: 0 auto;
   padding: 0 20px;
 }

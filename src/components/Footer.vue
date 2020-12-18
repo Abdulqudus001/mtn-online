@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
-    <div class="my-container row mx-auto">
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+    <div class="my-container row mx-auto px-0">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Personal </a>
         </h4>
@@ -23,12 +23,12 @@
           </li>
         </ul>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Business </a>
         </h4>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Investors </a>
         </h4>
@@ -47,17 +47,17 @@
           </li>
         </ul>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Foundation </a>
         </h4>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Events </a>
         </h4>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Support </a>
         </h4>
@@ -70,17 +70,17 @@
           </li>
         </ul>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> About Us </a>
         </h4>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Careers </a>
         </h4>
       </div>
-      <div class="footer__item col-12 col-md-4 col-lg-2">
+      <div class="footer__item col-12 col-md-4 col-lg-2 pl-0">
         <h4>
           <a href="#"> Contact Us </a>
         </h4>
@@ -240,20 +240,20 @@ export default {
   }
 
   @media screen and (min-width: 992px) {
-    margin-top: 100px;
+    // margin-top: 100px;
     // overflow-x: hidden;
     padding: 80px 0;
     text-align: left;
     position: relative;
     &:before {
-      box-shadow: 0 0 0 40px #FFF;
+      box-shadow: 0 0 0 40px #F2F2F2;
       border-radius: 100%;
       position: absolute;
       left: 0;
       right: 0;
       top: 0;
       height: 5px;
-      background-color: #FFF;
+      background-color: #F2F2F2;
       content: '';
       transform: rotate(180deg);
     }
