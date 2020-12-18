@@ -22,6 +22,12 @@ export default {
 
 @font-face {
   font-family: "MTN-sans";
+  src: url(./assets/fonts/MTNBrighterSans-Light.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "MTN-sans";
   src: url(./assets/fonts/MTNBrighterSans-Regular.ttf);
 }
 
@@ -37,10 +43,26 @@ export default {
   font-weight: 700;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #app {
   font-family: MTN-sans, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+
+.my-container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 </style>

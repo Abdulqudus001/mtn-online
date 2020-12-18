@@ -557,6 +557,7 @@ ul.sub-menu {
   position: absolute;
   border-radius: 10px;
   animation: ease .5s fly-up;
+  z-index: 2;
   li {
     text-align: left;
     padding: 20px;
