@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar container-fluid px-3 px-md-5 py-3">
+  <nav
+    class="navbar container-fluid px-3 px-md-5 py-3"
+    :style="active ? 'position: fixed;' : 'position: relative;'"
+  >
     <ul class="row align-items-center mx-0">
       <li class="navbar__logo ml-0">
         <a href="/">
@@ -386,6 +389,7 @@ export default {
   background-color: #ffcc00;
   color: #000;
   width: 100vw;
+  z-index: 1;
 
   &__logo img {
     width: 40px;
