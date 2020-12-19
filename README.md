@@ -19,18 +19,18 @@ This is a clone of the [mtnonline supplier page](https://www.mtnonline.com/conta
 
   - Head over to [giphy](https://developers.giphy.com/) to create an account and generate an API key.
   - Create a .env file at the root folder and add `VUE_APP_TOKEN=your_giphy_token` to the file to be able to use the giphy API 
-### Compiles and hot-reloads for development
+### 🚀 Compiles and hot-reloads for development
 To start up the server after installing dependencies, run
 ``` bash
 yarn serve
 ```
 
-### Compiles and minifies for production
+### ⚒️ Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### 🛠️ Lints and fixes files
 ```
 yarn lint
 ```
